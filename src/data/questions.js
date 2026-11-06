@@ -1,0 +1,42 @@
+export const questions = [
+  {
+    id: 'goias-capital',
+    category: 'GOIÁS',
+    shortLabel: 'GO',
+    prompt: 'Qual é a capital do estado de Goiás?',
+    options: ['Anápolis', 'Goiânia', 'Rio Verde', 'Goiás'],
+    answer: 1,
+  },
+  {
+    id: 'bioma-goias',
+    category: 'CERRADO',
+    shortLabel: 'BIO',
+    prompt: 'Qual destes biomas é predominante em Goiás?',
+    options: ['Caatinga', 'Pampa', 'Cerrado', 'Pantanal'],
+    answer: 2,
+  },
+  {
+    id: 'maior-planeta',
+    category: 'ESPAÇO',
+    shortLabel: 'ESP',
+    prompt: 'Qual é o maior planeta do Sistema Solar?',
+    options: ['Terra', 'Marte', 'Saturno', 'Júpiter'],
+    answer: 3,
+  },
+  {
+    id: 'capital-brasil',
+    category: 'BRASIL',
+    shortLabel: 'BR',
+    prompt: 'Qual é a capital do Brasil?',
+    options: ['São Paulo', 'Brasília', 'Goiânia', 'Rio de Janeiro'],
+    answer: 1,
+  },
+  {
+    id: 'multiplicacao',
+    category: 'DESAFIO',
+    shortLabel: 'MAT',
+    prompt: 'Quanto é 8 × 7?',
+    options: ['54', '48', '56', '64'],
+    answer: 2,
+  },
+];
